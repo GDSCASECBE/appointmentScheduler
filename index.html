@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="contactForm1" class="formClct" style="margin-top: 200px;">
+            <input id="name1" class="nm1" type="text">
+            <input id="appnt1" class="em1" type="number">
+            <input id="unq1" class="pw1" type="password">
+            <button type="submit" class="sbtn" id="sbtn1">Book Appointment</button>
+        </form>
+
+        <form id="contactForm2" style="margin-left: 100px; margin-top: 200px;" class="formClct">
+            <input id="name2" class="nm1" type="text">
+            <input id="unq2" class="pw1" type="password">
+            <button type="submit" class="sbtn" id="sbtn2">Download Appointment</button>
+        </form>
+    </div>
+    
+    <iframe id="pdfViewer" style="display: none;"></iframe>
+
+
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>

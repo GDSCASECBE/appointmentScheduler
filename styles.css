@@ -1,0 +1,35 @@
+body {
+    background-color: brown;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%; /* Adjust the width as needed */
+    padding-top: 15px; /* Adjust the padding as needed */
+}
+
+.formClct {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nm1, .em1, .pw1 {
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid;
+    border-color: white;
+}
+
+.sbtn {
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
