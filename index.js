@@ -3,7 +3,7 @@
 
 
 
-
+// ----------------------------------------------dont change-----------------------------------------------------//
   const firebaseConfig = {
     apiKey: "AIzaSyDsmGooNCbVlQY-KZE9-YIhGhXTTUfnKy4",
     authDomain: "appntapp-2d799.firebaseapp.com",
@@ -13,7 +13,7 @@
     appId: "1:740407693598:web:cf495254e20b2ac93ff90f",
     measurementId: "G-Q53J0PGR4Y"
   };
-
+// ----------------------------------------------dont change-----------------------------------------------------//
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
 
