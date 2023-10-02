@@ -16,10 +16,11 @@ Below you will find the process and workflow used to review and merge your chang
 - Fork this Repository. This will create a Local Copy of this Repository on your Github Profile. 
 - Button at the right.
 
-
 ## Step 3 : Clone
 - Run the command in your terminal
-- $ git clone https://github.com/<your-username>/Reeponame
+```bash
+$ git clone https://github.com/<your-username>/Reeponame
+```
 
 ## Step 4 : Work on the issue assigned
 - Work on the issue(s) assigned to you. 
@@ -28,13 +29,17 @@ Below you will find the process and workflow used to review and merge your chang
 
 
 ## Step 5 : Commit
-# This message get associated with all files you have changed
-$ git commit -m "message"
 
+# This message get associated with all files you have changed
+```bash
+$ git commit -m "message"
+```
 
 ## Step 6 : Push to your repo
+```bash
 $ git remote add origin “url”
 $ git push origin main
+```
 
 ## Step 7 : Pull Request
 - Go to your repository in browser and click on compare and pull requests. Then add a title and description to your pull request that explains your contribution.

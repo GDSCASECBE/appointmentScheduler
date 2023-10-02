@@ -19,6 +19,6 @@
 [Any additional information, screenshots, or context that might be helpful for the contributor. Include links to relevant documentation or examples if available.]
 
 
-### Reviewers:
+### Maintainers:
 
 [Tag any relavant reviewers or project maintainers to start discussions and get suggestions.]
