@@ -33,3 +33,28 @@ body {
     background-color: black;
     color: white;
 }
+
+.dt1,.tm1,.dt2,.tm2 {
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: solid;
+    border-color: white;
+}
+
+#date1::placeholder, #time1::placeholder {
+    text-align: center; 
+}
+
+#date1:focus, #time1:focus {
+    outline: none; 
+}
+#date2::placeholder, #time2::placeholder {
+    text-align: center; 
+}
+
+#date2:focus, #time2:focus {
+    outline: none; 
+}
+
